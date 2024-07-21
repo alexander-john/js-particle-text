@@ -25,7 +25,8 @@ window.addEventListener('load', function() {
     ctx.strokeStyle = 'white';
 
     ctx.font = '80px Helvetica';
-    ctx.textAlign = 'end';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
     ctx.fillText(text, textX, textY);
     ctx.strokeText(text, textX, textY);
 
